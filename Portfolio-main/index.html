@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6d280ee357.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/industry.png" class="logo"> -->
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi,  This is <span>Saqlain Khan</span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/saqlains.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"As a fresh full-stack developer, I bring enthusiasm and a hunger to learn. Proficient in front-end and back-end development, I aim to contribute effectively to projects while continuously refining my skills. Eager to collaborate, solve problems, and make a positive impact in the ever-evolving world of web development."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('trainings')">Trainings</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack Developer</span><br> Desining Responsive Websites</li>
+                            <li><span>Java</span><br> Data Structures And Algorithm</li>
+                            <li><span>Frameworks</span><br> Spring Boot , Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="trainings">
+                        <ul>
+                            <li><span>Java Full Stack Developer</span><br>Softpro India</li>
+                            <li><span>Data structure And Algorithm</span><br>Apna College</li>
+                            <li><span>Python Developement</span><br>Internshala.com</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-25</span><br>B.Tech in Computer Science<br>Jahangirabad Institute of Technology</li>
+                            <li><span>2019-21</span><br>Diploma in computer science<br>Jahangirabad Institute of Technology</li>
+                            <li><span>2018-19</span><br>10th<br>DALIMSS Sunbeam School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------Services------ -->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <!-- <i class="fa-solid fa-code"></i> -->
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <h2>Web Design</h2>
+                <p>"I make websites look awesome! With a mix of creativity and tech skills, I create sites that are easy to use and look great. I know how to make sure people enjoy using them. I'm all about making brands shine online and keeping users happy."</p>
+                <a href="#">Lerarn more</a>
+            </div>
+            <div>
+                <!-- <i class="fa-solid fa-crop"></i> -->
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <h2>Java Developement</h2>
+                <p>"As a Java developer, I build robust and efficient software solutions. Proficient in Java programming language, I develop scalable applications that meet client needs. Dedicated to writing clean, maintainable code and staying updated with the latest Java technologies to deliver high-quality solutions."</p>
+                <a href="#">Lerarn more</a>
+            </div>
+            <div>
+                <!-- <i class="fa-brands fa-app-store"></i> -->
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <h2>Front End Back End</h2>
+                <p>"I'm skilled in both front-end and back-end development. Using HTML, CSS, and JavaScript, I create user-friendly interfaces. On the back end, I specialize in Java, building strong server-side logic for efficient web applications."</p>
+                <a href="#">Lerarn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- ------------Portfolio---------- -->
+
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Screenshot 2024-03-30 031757.png">
+                <div class="layer">
+                    <h3>Hacker Login Form</h3>
+                    <p>Responsive and interactive</p>
+                    <a href=""><i class="fa-duotone fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Screenshot 2024-03-30 031849.png">
+                <div class="layer">
+                    <h3>Cloth Kart</h3>
+                    <p>E commerce Website used to buy clothes</p>
+                    <a href=""><i class="fa-duotone fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Screenshot 2024-04-03 031953.png">
+                <div class="layer">
+                    <h3>Tic Tac Toe</h3>
+                    <p>Responsive game</p>
+                    <a href=""><i class="fa-duotone fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Screenshot 2024-03-30 031939.png">
+                <div class="layer">
+                    <h3>JIT</h3>
+                    <p>My college website clone</p>
+                    <a href=""><i class="fa-duotone fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Screenshot 2024-04-02 141046.png">
+                <div class="layer">
+                    <h3>Sketch application</h3>
+                    <p>Draw and save as image</p>
+                    <a href=""><i class="fa-duotone fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Screenshot 2024-04-02 141312.png">
+                <div class="layer">
+                    <h3>Age Calculator</h3>
+                    <p>You Can Calculate your age by giving your DOB</p>
+                    <a href=""><i class="fa-duotone fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See More</a>
+    </div>
+   </div>
+
+
+   <!-- -------------------contact------------- -->
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> mrsaif820@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 9369717947</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Portfolio made by <i class="fa-solid fa-heart"></i> Saqlain khan</p>
+    </div>
+
+
+   </div>
+   
+    <script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks )
+        {
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+    </script>
+    <script>
+       
+       var sidemeu = document.getElementById("sidemenu");
+       
+       function openmenu(){
+        sidemeu.style.right = "0";
+       }
+       function closemenu(){
+        sidemeu.style.right = "-200px";
+       }
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbznUoM6-yU9NI_1CZ03AclN39HzAdoDpnup3973ssq-arzjDxR0lO-wTQUkf1s6Tfdo/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Sucessfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
